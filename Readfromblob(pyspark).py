@@ -3,7 +3,7 @@ import com.microsoft.spark.sqlanalytics
 from com.microsoft.spark.sqlanalytics.Constants import Constants
 from pyspark.sql.functions import col 
  
-  
+   
 # Read from existing internal table
 dfToReadFromTable = (spark.read
                      # If `Constants.SERVER` is not provided, the `<database_name>` from the three-part table name argument
