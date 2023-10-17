@@ -2,7 +2,7 @@
 import com.microsoft.spark.sqlanalytics
 from com.microsoft.spark.sqlanalytics.Constants import Constants
 from pyspark.sql.functions import col 
- 
+  
    
 # Read from existing internal table
 dfToReadFromTable = (spark.read
